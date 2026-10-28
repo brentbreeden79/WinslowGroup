@@ -5,69 +5,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Winslow Group | Loudoun County Real Estate</title>
   <meta name="description" content="Mike Winslow helps buyers and sellers in Loudoun County and Northern Virginia. Local expertise since 2001. U.S. Navy veteran.">
+  <meta name="theme-color" content="#050d1f">
   <meta property="og:title" content="The Winslow Group | Loudoun County Real Estate">
-  <meta property="og:description" content="Helping buyers and sellers in Loudoun County since 2001.">
+  <meta property="og:description" content="Navigating Loudoun County real estate since 2001. U.S. Navy veteran.">
   <meta property="og:url" content="https://winslowgroup.com/">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://winslowgroup.com/assets/mike-winslow.png">
   <link rel="icon" href="assets/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <header class="nav">
-    <a href="#top" class="nav-logo"><img src="assets/logo.png" alt="The Winslow Group" width="259" height="50"></a>
-    <a href="mailto:Mike@winslowgroup.com" class="btn btn-small">Get in touch</a>
+    <a href="#top" class="wordmark" aria-label="The Winslow Group, home">
+      <svg class="anchor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a3 3 0 0 0-1 5.83V10H8v2h3v7.93A8 8 0 0 1 4.07 13H6l-3-4-3 4h2.05A10 10 0 0 0 22 13h2.05L21 9l-3 4h1.93A8 8 0 0 1 13 19.93V12h3v-2h-3V7.83A3 3 0 0 0 12 2Zm0 2a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"/></svg>
+      <span>THE WINSLOW GROUP</span>
+    </a>
+    <a href="#contact" class="btn btn-small">Get in touch</a>
   </header>
 
   <main id="top">
     <section class="hero">
       <div class="hero-text">
-        <p class="eyebrow">Loudoun County Real Estate</p>
-        <h1>Let's make your next move the <span class="highlight">right one.</span></h1>
-        <p class="lead">I'm Mike Winslow. Whether you're finding your dream home or selling for top dollar, I'll make the journey smooth and stress-free.</p>
+        <p class="hud-label"><span class="dot"></span>39.08° N / 77.64° W &middot; LOUDOUN COUNTY, VA</p>
+        <h1>Navigating your <span class="glow">next move.</span></h1>
+        <p class="lead">I'm Mike Winslow, a U.S. Navy veteran and Loudoun County real estate agent. Whether you're finding your dream home or selling for top dollar, I'll chart a smooth, stress-free course.</p>
         <div class="hero-actions">
           <a href="mailto:Mike@winslowgroup.com" class="btn">Email Mike</a>
-          <a href="#about" class="btn btn-ghost">Learn more</a>
+          <a href="#mission" class="btn btn-ghost">Mission brief</a>
         </div>
       </div>
-      <div class="hero-photo">
-        <div class="blob"></div>
+
+      <div class="radar" aria-hidden="false">
+        <div class="radar-sweep" aria-hidden="true"></div>
         <img src="assets/mike-winslow.png" alt="Mike Winslow smiling with arms crossed" width="500" height="500">
+        <span class="radar-tag radar-tag-1" aria-hidden="true">TARGET: HOME</span>
+        <span class="radar-tag radar-tag-2" aria-hidden="true">BRG 045°</span>
       </div>
     </section>
 
-    <section class="stats">
-      <div class="stat stat-red">
-        <span class="stat-icon" aria-hidden="true">📍</span>
+    <section class="stats" aria-label="Highlights">
+      <div class="panel">
+        <p class="panel-label">// SECTOR</p>
         <strong>Loudoun County</strong>
         <span>Local specialist</span>
       </div>
-      <div class="stat stat-gold">
-        <span class="stat-icon" aria-hidden="true">🏡</span>
-        <strong>Since 2001</strong>
+      <div class="panel panel-gold">
+        <p class="panel-label">// ACTIVE SINCE</p>
+        <strong>2001</strong>
         <span>Helping buyers &amp; sellers</span>
       </div>
-      <div class="stat stat-blue">
-        <span class="stat-icon" aria-hidden="true">⚓</span>
+      <div class="panel panel-red">
+        <p class="panel-label">// SERVICE</p>
         <strong>U.S. Navy</strong>
         <span>Veteran</span>
       </div>
     </section>
 
-    <section class="about" id="about">
+    <section class="mission" id="mission">
+      <p class="hud-label">01 &middot; MISSION BRIEF</p>
       <h2>Two decades in Northern Virginia's market</h2>
-      <p>Northern Virginia moves fast. With more than 20 years of experience here, I bring local expertise, personalized service, and a real commitment to your success, from the first showing to closing day.</p>
+      <p class="mission-text">Northern Virginia moves fast. With more than 20 years of experience here, I bring local expertise, personalized service, and a real commitment to your success, from the first showing to closing day.</p>
 
       <div class="cards">
         <article class="card">
+          <p class="panel-label">02 &middot; INBOUND</p>
           <h3>Buying</h3>
           <p>Find the right home in the right neighborhood, and make a confident offer in a competitive market.</p>
         </article>
         <article class="card">
+          <p class="panel-label">03 &middot; OUTBOUND</p>
           <h3>Selling</h3>
           <p>Price it right, show it well, and negotiate for top dollar so you can move on to what's next.</p>
         </article>
@@ -75,9 +85,10 @@
     </section>
 
     <section class="contact" id="contact">
-      <h2>Ready to talk?</h2>
+      <p class="hud-label"><span class="dot"></span>CHANNEL OPEN</p>
+      <h2>Ready to set a course?</h2>
       <p>Reach out anytime. I'd love to hear about your plans.</p>
-      <a href="mailto:Mike@winslowgroup.com" class="btn btn-light">Mike@winslowgroup.com</a>
+      <a href="mailto:Mike@winslowgroup.com" class="btn btn-big">Mike@winslowgroup.com</a>
       <div class="social">
         <a href="https://www.facebook.com/profile.php?id=100057699758257" target="_blank" rel="noopener">Facebook</a>
         <a href="https://www.instagram.com/agent_winslow/" target="_blank" rel="noopener">Instagram</a>
@@ -86,9 +97,18 @@
   </main>
 
   <footer class="footer">
+    <div class="footer-logo"><img src="assets/logo.png" alt="The Winslow Group, subsidiary of Premier Realty Group" width="259" height="50"></div>
     <p>&copy; <span id="year">2026</span> The Winslow Group &middot; A subsidiary of Premier Realty Group</p>
+    <p class="hud-label footer-clock">LOCAL TIME <span id="clock">--:--</span> ET</p>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const clock = document.getElementById('clock');
+    const fmt = new Intl.DateTimeFormat('en-US', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'America/New_York' });
+    const tick = () => { clock.textContent = fmt.format(new Date()); };
+    tick();
+    setInterval(tick, 30000);
+  </script>
 </body>
 </html>
